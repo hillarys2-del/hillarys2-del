@@ -16,12 +16,12 @@
             <input name="Senha" type="password"><br><br>
 
             <label for="manterLogado">Manter Logado</label>
-            <input name="manterLogado" type="checkbox"><br>
-
-            <a href="google.com">Ainda não tem conta</a>
-            <a href="google.com">Esqueceu a senha</a>
+            <input name="manterLogado" type="checkbox"><br><br>
 
             <input name="login" type="submit" value="Enviar login"><br>
+
+            <a href="google.com">Ainda não tem conta</a><br>
+            <a href="google.com">Esqueceu a senha</a><br><br>
 
 </body>
 </html>
