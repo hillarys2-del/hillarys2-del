@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+
+        <style>
+            form {
+                text-align: center;
+            }
+
+            p {
+                margin: 10px 0;
+            }
+
+            body {
+                background: rgb(255,254,239);
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+            }
+
+            h1 {
+                color: #000000;
+                font-size: 24px;
+            }
+
+            button {
+                background-color: #35a700; /* Verde */
+                color: rgb(255, 255, 255);
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </style>
+</head>
+<body>
+    
+    <form action="#" method="post">
+            <h1>LOGIN:</h1>
+           
+            <p>
+            <label for="nomePessoa">Nome:</label>
+            <input name="nomePessoa" type="text required"><br>
+            </p>
+
+            <p>
+            <label for="Senha">Senha:</label>
+            <input name="Senha" type="password"><br>
+            </p>
+
+            <p>
+            <input name="manterLogado" type="checkbox" value="sim">
+            <label for="manterLogado">Manter Logado</label>
+            </p>
+
+            <p>
+            <button type="submit" >Login</button>
+            </p>
+
+            <p><a href="#URL">Ainda não tem conta</a><br></p>
+            <p><a href="#URL">Esqueceu a senha</a></p>
+           
+        </form>
+
+</body>
+</html>
