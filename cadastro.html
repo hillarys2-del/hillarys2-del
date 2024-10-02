@@ -7,67 +7,74 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ff9b9b;
+            background-color: #f4f4f4;
+            color: #333;
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
+
         .container {
-            max-width: 400px;
-            margin: auto;
-            background: rgb(255, 208, 208);
+            width: 300px;
+            margin: 50px auto;
             padding: 20px;
-            border-radius: 8px;
+            background-color: #fff;
+            border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             text-align: center;
-            color: #000000;
+            font-size: 24px;
+            color: #4CAF50;
         }
+
         label {
+            margin-top: 10px;
             display: block;
-            margin: 10px 0 5px;
-            color: #555;
         }
+
         input, select {
             width: 100%;
             padding: 10px;
-            margin: 5px 0 15px;
+            margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
         button {
-            background-color: #db5959;
-            color: rgb(212, 212, 212);
-            border: none;
-            padding: 10px;
             width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
         }
+
         button:hover {
-            background-color: #882121;
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Cadastro de Usuário</h1>
-        <form action="#" method="post">
-            <label for="name">Nome Completo</label>
-            <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+        <h1>Cadastro de Usuários</h1>
+        <form id="cadastro-form">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
 
-            <label for="email">Endereço de Email</label>
+            <label for="email">Endereço de Email:</label>
             <input type="email" id="email" name="email" placeholder="Digite seu email" required>
 
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
 
-            <label for="confirm-password">Confirmar Senha</label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+            <label for="confirmar-senha">Confirmar Senha:</label>
+            <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha" required>
 
-            <label for="profile">Perfil</label>
-            <select id="profile" name="profile" required>
+            <label for="perfil">Perfil:</label>
+            <select id="perfil" name="perfil" required>
                 <option value="">Selecione um perfil</option>
                 <option value="professor">Professor</option>
                 <option value="administrador">Administrador</option>
